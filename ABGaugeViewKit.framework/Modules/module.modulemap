@@ -1,0 +1,11 @@
+framework module ABGaugeViewKit {
+  umbrella header "ABGaugeViewKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ABGaugeViewKit.Swift {
+    header "ABGaugeViewKit-Swift.h"
+    requires objc
+}
